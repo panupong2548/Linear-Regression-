@@ -33,3 +33,4 @@ if __name__ == "__main__":
     print("Predictions:", predictions)
     print("Mean Squared Error:", mse)
 
+    print("prediction for x=6:", model.m * 6 + model.b)
